@@ -170,7 +170,7 @@ switch(gamestate){
         a=10;
       }
     }
-    if(a==0){
+    if(a<=0){
       gamestate=GAME_LOSE;
     }
     
