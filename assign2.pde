@@ -54,7 +54,7 @@ void setup ()
   bgX=0;
   start1X=0;
   
-  a=10;
+  a=2;
   treasureX=floor(random(0,640));
   treasureY=floor(random(0,480));
   fighterX=floor(random(0,640));
@@ -185,7 +185,7 @@ switch(gamestate){
         image(end1,0,0);
          if(mousePressed){
         gamestate=GAME_RUN;
-        a=10;
+        a=2;
         }
       }
       break;
